@@ -41,3 +41,7 @@ summary(surveys_200)
 nrow(surveys)
 surveys[nrow(surveys)/2, ]
 
+my_list <- list(names = c("nelly", "jan"),
+                money = c(1, 2, 3, 4, 5, 6))
+
+my_list [[1]]
