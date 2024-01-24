@@ -98,6 +98,6 @@ plot(sex)
 #challange2
 levels(sex)[1:2] <- c("female", "male")
 
-sex <- factor(sex, levels = c("undetermined", "female", "male"))
+sex <- factor(sex, levels = c("undetermined", "female", "male")
 plot(sex)
               
